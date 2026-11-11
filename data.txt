@@ -8,7 +8,7 @@ Model : Micro-llm
 
 Version : 1.0.0
 
-Status : shutting down
+Status : shutted down
 
 # *Reason* for shut down (optional) : uncomfortable responses, improper training sessions. #
 
