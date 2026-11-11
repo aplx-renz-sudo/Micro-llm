@@ -1,0 +1,54 @@
+=================================================================================================================================================================================================================================
+                                                                                                    MICRO INFO (Data)
+=================================================================================================================================================================================================================================
+
+TEST 0-1 (Shutted down):
+
+Model : Micro-llm
+
+Version : 1.0.0
+
+Status : shutting down
+
+# *Reason* for shut down (optional) : uncomfortable responses, improper training sessions. #
+
+Screenshot of proof : Screenshot_20261110_211338.png
+
+Next conduct : fresh [f]
+
+train next : Ultra_chat_200k
+
+-> Last training info - "tep 500 | train loss 4.1576 | val loss 4.2395 | lr 5.85e-04 | tokens/s 2654 | GPU MiB 1504
+ 21%|█████████████████████████████▎                                                                                                             | 633/3000 [1:04:35<4:07:53,  6.28s/it, gpu_mib=1504, loss=4.0923, lr=5.69e-04, tok_s=2566]^ 21%|█████████████████████████████▎                                                                                                             | 633/3000 [1:04:40<4:01:51,  6.13s/it, gpu_mib=1504, loss=4.0923, lr=5.69e-04, tok_s=2566]
+
+"
+Time of shut down : 10:28AM
+
+date of shut down : 11/11/26
+
+=================================================================================================================================================================================================================================
+
+=================================================================================================================================================================================================================================
+
+TEST 0-2:
+
+Model : Micro-llm
+
+Version : 1.0.1
+
+status : Training
+
+Conduct : Fresh [f]
+
+train : no_robots
+
+Progress : "/home/r3nz/Desktop/Micro-llm/train.py:278: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=device.type == "cuda")
+  1%|█▍                                                                                                                                            | 31/3000 [02:55<4:41:05,  5.68s/it, gpu_mib=1504, loss=7.9924, lr=9.30e-05, tok_s=2857]
+
+"
+Test : untested (in training)
+
+Date : 11/11/26
+
+Time : 11:49AM
